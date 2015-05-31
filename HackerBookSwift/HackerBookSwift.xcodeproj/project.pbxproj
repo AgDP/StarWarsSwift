@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB2AABD61B14C18E003AA13C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AABD51B14C18E003AA13C /* AppDelegate.swift */; };
+		FB2AABD81B14C18E003AA13C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2AABD71B14C18E003AA13C /* Images.xcassets */; };
+		FB2AABDB1B14C18E003AA13C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB2AABD91B14C18E003AA13C /* LaunchScreen.xib */; };
+		FB2AABE71B14C18E003AA13C /* HackerBookSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2AABE61B14C18E003AA13C /* HackerBookSwiftTests.swift */; };
+		FBBCFA7B1B18CDA4003F8A6E /* StarWarsCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFA7A1B18CDA4003F8A6E /* StarWarsCharacter.swift */; };
+		FBBCFA7E1B18CDBE003F8A6E /* StarWarsUniverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFA7D1B18CDBE003F8A6E /* StarWarsUniverse.swift */; };
+		FBBCFA881B18DD4B003F8A6E /* StarWarsUniverseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFA861B18DD4B003F8A6E /* StarWarsUniverseViewController.swift */; };
+		FBBCFA8C1B18DDAC003F8A6E /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFA8A1B18DDAC003F8A6E /* CharacterViewController.swift */; };
+		FBBCFA8D1B18DDAC003F8A6E /* CharacterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFA8B1B18DDAC003F8A6E /* CharacterViewController.xib */; };
+		FBBCFA901B18DDDA003F8A6E /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBCFA8E1B18DDDA003F8A6E /* WikiViewController.swift */; };
+		FBBCFA911B18DDDA003F8A6E /* WikiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFA8F1B18DDDA003F8A6E /* WikiViewController.xib */; };
+		FBBCFA9A1B18E7E4003F8A6E /* c3po.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFA931B18E7E4003F8A6E /* c3po.jpg */; };
+		FBBCFA9B1B18E7E4003F8A6E /* chewbacca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFA941B18E7E4003F8A6E /* chewbacca.jpg */; };
+		FBBCFA9C1B18E7E4003F8A6E /* darthVader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFA951B18E7E4003F8A6E /* darthVader.jpg */; };
+		FBBCFA9D1B18E7E4003F8A6E /* palpatine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFA961B18E7E4003F8A6E /* palpatine.jpg */; };
+		FBBCFA9E1B18E7E4003F8A6E /* R2-D2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFA971B18E7E4003F8A6E /* R2-D2.jpg */; };
+		FBBCFA9F1B18E7E4003F8A6E /* tarkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFA981B18E7E4003F8A6E /* tarkin.jpg */; };
+		FBBCFAA01B18E7E4003F8A6E /* yoda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFA991B18E7E4003F8A6E /* yoda.jpg */; };
+		FBBCFAAF1B18EF89003F8A6E /* c3po.caf in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFAA81B18EF89003F8A6E /* c3po.caf */; };
+		FBBCFAB01B18EF89003F8A6E /* chewbacca.caf in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFAA91B18EF89003F8A6E /* chewbacca.caf */; };
+		FBBCFAB11B18EF89003F8A6E /* palpatine.caf in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFAAA1B18EF89003F8A6E /* palpatine.caf */; };
+		FBBCFAB21B18EF89003F8A6E /* r2-d2.caf in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFAAB1B18EF89003F8A6E /* r2-d2.caf */; };
+		FBBCFAB31B18EF89003F8A6E /* tarkin.caf in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFAAC1B18EF89003F8A6E /* tarkin.caf */; };
+		FBBCFAB41B18EF89003F8A6E /* vader.caf in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFAAD1B18EF89003F8A6E /* vader.caf */; };
+		FBBCFAB51B18EF89003F8A6E /* yoda.caf in Resources */ = {isa = PBXBuildFile; fileRef = FBBCFAAE1B18EF89003F8A6E /* yoda.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB2AABE11B14C18E003AA13C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB2AABC81B14C18E003AA13C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB2AABCF1B14C18E003AA13C;
+			remoteInfo = HackerBookSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB2AABD01B14C18E003AA13C /* HackerBookSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackerBookSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2AABD41B14C18E003AA13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2AABD51B14C18E003AA13C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB2AABD71B14C18E003AA13C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB2AABDA1B14C18E003AA13C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB2AABE01B14C18E003AA13C /* HackerBookSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerBookSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2AABE51B14C18E003AA13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB2AABE61B14C18E003AA13C /* HackerBookSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerBookSwiftTests.swift; sourceTree = "<group>"; };
+		FBBCFA7A1B18CDA4003F8A6E /* StarWarsCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsCharacter.swift; sourceTree = "<group>"; };
+		FBBCFA7D1B18CDBE003F8A6E /* StarWarsUniverse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsUniverse.swift; sourceTree = "<group>"; };
+		FBBCFA861B18DD4B003F8A6E /* StarWarsUniverseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsUniverseViewController.swift; sourceTree = "<group>"; };
+		FBBCFA8A1B18DDAC003F8A6E /* CharacterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		FBBCFA8B1B18DDAC003F8A6E /* CharacterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CharacterViewController.xib; sourceTree = "<group>"; };
+		FBBCFA8E1B18DDDA003F8A6E /* WikiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
+		FBBCFA8F1B18DDDA003F8A6E /* WikiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikiViewController.xib; sourceTree = "<group>"; };
+		FBBCFA931B18E7E4003F8A6E /* c3po.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c3po.jpg; sourceTree = "<group>"; };
+		FBBCFA941B18E7E4003F8A6E /* chewbacca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chewbacca.jpg; sourceTree = "<group>"; };
+		FBBCFA951B18E7E4003F8A6E /* darthVader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darthVader.jpg; sourceTree = "<group>"; };
+		FBBCFA961B18E7E4003F8A6E /* palpatine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palpatine.jpg; sourceTree = "<group>"; };
+		FBBCFA971B18E7E4003F8A6E /* R2-D2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "R2-D2.jpg"; sourceTree = "<group>"; };
+		FBBCFA981B18E7E4003F8A6E /* tarkin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tarkin.jpg; sourceTree = "<group>"; };
+		FBBCFA991B18E7E4003F8A6E /* yoda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yoda.jpg; sourceTree = "<group>"; };
+		FBBCFAA81B18EF89003F8A6E /* c3po.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = c3po.caf; sourceTree = "<group>"; };
+		FBBCFAA91B18EF89003F8A6E /* chewbacca.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = chewbacca.caf; sourceTree = "<group>"; };
+		FBBCFAAA1B18EF89003F8A6E /* palpatine.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = palpatine.caf; sourceTree = "<group>"; };
+		FBBCFAAB1B18EF89003F8A6E /* r2-d2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "r2-d2.caf"; sourceTree = "<group>"; };
+		FBBCFAAC1B18EF89003F8A6E /* tarkin.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tarkin.caf; sourceTree = "<group>"; };
+		FBBCFAAD1B18EF89003F8A6E /* vader.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = vader.caf; sourceTree = "<group>"; };
+		FBBCFAAE1B18EF89003F8A6E /* yoda.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = yoda.caf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB2AABCD1B14C18E003AA13C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2AABDD1B14C18E003AA13C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB2AABC71B14C18E003AA13C = {
+			isa = PBXGroup;
+			children = (
+				FB2AABD21B14C18E003AA13C /* HackerBookSwift */,
+				FB2AABE31B14C18E003AA13C /* HackerBookSwiftTests */,
+				FB2AABD11B14C18E003AA13C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB2AABD11B14C18E003AA13C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB2AABD01B14C18E003AA13C /* HackerBookSwift.app */,
+				FB2AABE01B14C18E003AA13C /* HackerBookSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB2AABD21B14C18E003AA13C /* HackerBookSwift */ = {
+			isa = PBXGroup;
+			children = (
+				FBBCFA921B18E7BC003F8A6E /* Resources */,
+				FB2AABD51B14C18E003AA13C /* AppDelegate.swift */,
+				FB2AABD71B14C18E003AA13C /* Images.xcassets */,
+				FB2AABD91B14C18E003AA13C /* LaunchScreen.xib */,
+				FB2AABD31B14C18E003AA13C /* Supporting Files */,
+				FBBCFA7C1B18CDAB003F8A6E /* Model */,
+				FBBCFA811B18CDD0003F8A6E /* Controller */,
+			);
+			path = HackerBookSwift;
+			sourceTree = "<group>";
+		};
+		FB2AABD31B14C18E003AA13C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB2AABD41B14C18E003AA13C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB2AABE31B14C18E003AA13C /* HackerBookSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB2AABE61B14C18E003AA13C /* HackerBookSwiftTests.swift */,
+				FB2AABE41B14C18E003AA13C /* Supporting Files */,
+			);
+			path = HackerBookSwiftTests;
+			sourceTree = "<group>";
+		};
+		FB2AABE41B14C18E003AA13C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB2AABE51B14C18E003AA13C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBBCFA7C1B18CDAB003F8A6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBBCFA7A1B18CDA4003F8A6E /* StarWarsCharacter.swift */,
+				FBBCFA7D1B18CDBE003F8A6E /* StarWarsUniverse.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FBBCFA811B18CDD0003F8A6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FBBCFA861B18DD4B003F8A6E /* StarWarsUniverseViewController.swift */,
+				FBBCFA8A1B18DDAC003F8A6E /* CharacterViewController.swift */,
+				FBBCFA8B1B18DDAC003F8A6E /* CharacterViewController.xib */,
+				FBBCFA8E1B18DDDA003F8A6E /* WikiViewController.swift */,
+				FBBCFA8F1B18DDDA003F8A6E /* WikiViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FBBCFA921B18E7BC003F8A6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBBCFAA81B18EF89003F8A6E /* c3po.caf */,
+				FBBCFAA91B18EF89003F8A6E /* chewbacca.caf */,
+				FBBCFAAA1B18EF89003F8A6E /* palpatine.caf */,
+				FBBCFAAB1B18EF89003F8A6E /* r2-d2.caf */,
+				FBBCFAAC1B18EF89003F8A6E /* tarkin.caf */,
+				FBBCFAAD1B18EF89003F8A6E /* vader.caf */,
+				FBBCFAAE1B18EF89003F8A6E /* yoda.caf */,
+				FBBCFA931B18E7E4003F8A6E /* c3po.jpg */,
+				FBBCFA941B18E7E4003F8A6E /* chewbacca.jpg */,
+				FBBCFA951B18E7E4003F8A6E /* darthVader.jpg */,
+				FBBCFA961B18E7E4003F8A6E /* palpatine.jpg */,
+				FBBCFA971B18E7E4003F8A6E /* R2-D2.jpg */,
+				FBBCFA981B18E7E4003F8A6E /* tarkin.jpg */,
+				FBBCFA991B18E7E4003F8A6E /* yoda.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB2AABCF1B14C18E003AA13C /* HackerBookSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2AABEA1B14C18E003AA13C /* Build configuration list for PBXNativeTarget "HackerBookSwift" */;
+			buildPhases = (
+				FB2AABCC1B14C18E003AA13C /* Sources */,
+				FB2AABCD1B14C18E003AA13C /* Frameworks */,
+				FB2AABCE1B14C18E003AA13C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackerBookSwift;
+			productName = HackerBookSwift;
+			productReference = FB2AABD01B14C18E003AA13C /* HackerBookSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB2AABDF1B14C18E003AA13C /* HackerBookSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB2AABED1B14C18E003AA13C /* Build configuration list for PBXNativeTarget "HackerBookSwiftTests" */;
+			buildPhases = (
+				FB2AABDC1B14C18E003AA13C /* Sources */,
+				FB2AABDD1B14C18E003AA13C /* Frameworks */,
+				FB2AABDE1B14C18E003AA13C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB2AABE21B14C18E003AA13C /* PBXTargetDependency */,
+			);
+			name = HackerBookSwiftTests;
+			productName = HackerBookSwiftTests;
+			productReference = FB2AABE01B14C18E003AA13C /* HackerBookSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB2AABC81B14C18E003AA13C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Agustin;
+				TargetAttributes = {
+					FB2AABCF1B14C18E003AA13C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					FB2AABDF1B14C18E003AA13C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FB2AABCF1B14C18E003AA13C;
+					};
+				};
+			};
+			buildConfigurationList = FB2AABCB1B14C18E003AA13C /* Build configuration list for PBXProject "HackerBookSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB2AABC71B14C18E003AA13C;
+			productRefGroup = FB2AABD11B14C18E003AA13C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB2AABCF1B14C18E003AA13C /* HackerBookSwift */,
+				FB2AABDF1B14C18E003AA13C /* HackerBookSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB2AABCE1B14C18E003AA13C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBCFA8D1B18DDAC003F8A6E /* CharacterViewController.xib in Resources */,
+				FBBCFAA01B18E7E4003F8A6E /* yoda.jpg in Resources */,
+				FBBCFAB21B18EF89003F8A6E /* r2-d2.caf in Resources */,
+				FBBCFAB01B18EF89003F8A6E /* chewbacca.caf in Resources */,
+				FBBCFA9C1B18E7E4003F8A6E /* darthVader.jpg in Resources */,
+				FBBCFA9D1B18E7E4003F8A6E /* palpatine.jpg in Resources */,
+				FBBCFA9A1B18E7E4003F8A6E /* c3po.jpg in Resources */,
+				FBBCFA9F1B18E7E4003F8A6E /* tarkin.jpg in Resources */,
+				FB2AABDB1B14C18E003AA13C /* LaunchScreen.xib in Resources */,
+				FBBCFAB51B18EF89003F8A6E /* yoda.caf in Resources */,
+				FBBCFA911B18DDDA003F8A6E /* WikiViewController.xib in Resources */,
+				FBBCFAB11B18EF89003F8A6E /* palpatine.caf in Resources */,
+				FBBCFAB31B18EF89003F8A6E /* tarkin.caf in Resources */,
+				FBBCFAB41B18EF89003F8A6E /* vader.caf in Resources */,
+				FBBCFA9E1B18E7E4003F8A6E /* R2-D2.jpg in Resources */,
+				FBBCFAAF1B18EF89003F8A6E /* c3po.caf in Resources */,
+				FB2AABD81B14C18E003AA13C /* Images.xcassets in Resources */,
+				FBBCFA9B1B18E7E4003F8A6E /* chewbacca.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2AABDE1B14C18E003AA13C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB2AABCC1B14C18E003AA13C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBCFA8C1B18DDAC003F8A6E /* CharacterViewController.swift in Sources */,
+				FBBCFA7B1B18CDA4003F8A6E /* StarWarsCharacter.swift in Sources */,
+				FBBCFA881B18DD4B003F8A6E /* StarWarsUniverseViewController.swift in Sources */,
+				FBBCFA7E1B18CDBE003F8A6E /* StarWarsUniverse.swift in Sources */,
+				FBBCFA901B18DDDA003F8A6E /* WikiViewController.swift in Sources */,
+				FB2AABD61B14C18E003AA13C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2AABDC1B14C18E003AA13C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB2AABE71B14C18E003AA13C /* HackerBookSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB2AABE21B14C18E003AA13C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB2AABCF1B14C18E003AA13C /* HackerBookSwift */;
+			targetProxy = FB2AABE11B14C18E003AA13C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB2AABD91B14C18E003AA13C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB2AABDA1B14C18E003AA13C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB2AABE81B14C18E003AA13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FB2AABE91B14C18E003AA13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB2AABEB1B14C18E003AA13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HackerBookSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB2AABEC1B14C18E003AA13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HackerBookSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB2AABEE1B14C18E003AA13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackerBookSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerBookSwift.app/HackerBookSwift";
+			};
+			name = Debug;
+		};
+		FB2AABEF1B14C18E003AA13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HackerBookSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackerBookSwift.app/HackerBookSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB2AABCB1B14C18E003AA13C /* Build configuration list for PBXProject "HackerBookSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2AABE81B14C18E003AA13C /* Debug */,
+				FB2AABE91B14C18E003AA13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2AABEA1B14C18E003AA13C /* Build configuration list for PBXNativeTarget "HackerBookSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2AABEB1B14C18E003AA13C /* Debug */,
+				FB2AABEC1B14C18E003AA13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB2AABED1B14C18E003AA13C /* Build configuration list for PBXNativeTarget "HackerBookSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB2AABEE1B14C18E003AA13C /* Debug */,
+				FB2AABEF1B14C18E003AA13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB2AABC81B14C18E003AA13C /* Project object */;
+}
